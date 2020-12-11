@@ -1,0 +1,30 @@
+.movie-page {
+    width: 100%;
+    display: flex;
+    margin: 20px 30px;
+    .container {
+        width: 100%;
+        justify-content: center;
+        .header {
+            font-size: 30px;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            .count-pill {
+                background-color: yellowgreen;
+                border-radius: 20px;
+                padding: 5px 10px;
+                font-size: 15px;
+                text-align: center;
+                align-items: center;
+                line-height: 30px;
+                font-weight: bold;
+            }
+        }
+        .movie-grid {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

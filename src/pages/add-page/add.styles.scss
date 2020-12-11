@@ -1,0 +1,65 @@
+.add-page {
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .container {
+        margin-top: 20px;
+        position: relative;
+        justify-content: center;
+        width: 50%;
+        .add-content {
+            justify-content: center;
+            position: relative;
+            .input-wrapper {
+                label {
+                    cursor: text;
+                    color: #fff;
+                    padding-left: 10px;
+                    line-height: 30px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    align-items: center;
+                    height: 100%;
+                }
+                input {
+                    font-size: 14px;
+                    width: 50vw;
+                    background-color: #101030;
+                    border-radius: 20px;
+                    outline: none;
+                    border: none;
+                    height: 30px;
+                    color: #fff;
+                    padding-left: 10px;
+                    &:focus~label,
+                    &:valid~label {
+                        font-size: 14px;
+                        top: -25px;
+                        padding-left: 10px;
+                        transition: ease-in 0.05s;
+                        color: black;
+                    }
+                    @media (max-width: 430px) {
+                        width: 80vw;
+                    }
+                }
+            }
+        }
+        @media (max-width: 430px) {
+            width: 90%;
+            justify-content: center;
+            display: flex;
+        }
+    }
+    .results {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        justify-content: center;
+    }
+}
