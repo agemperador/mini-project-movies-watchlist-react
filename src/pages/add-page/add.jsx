@@ -12,6 +12,8 @@ const Add = () => {
     const adult = false
     const api_key =process.env.REACT_APP_TMDB_KEY
 
+    console.log(process.env)
+
     const handleChange = e =>{
         e.preventDefault()
 
