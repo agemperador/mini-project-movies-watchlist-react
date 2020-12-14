@@ -10,7 +10,7 @@ const Watched = () => {
         <div className="movie-page">
             <div className="container">
                 <div className="header">
-                    <span>
+                    <span className='title'>
                     My Watched Movies
                     </span>
                     <span className="count-pill">

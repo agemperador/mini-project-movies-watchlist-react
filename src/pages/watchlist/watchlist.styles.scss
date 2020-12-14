@@ -1,5 +1,5 @@
 .movie-page {
-    width: 100%;
+    width: 100vw;
     display: flex;
     margin: 20px 30px;
     .container {
@@ -8,17 +8,28 @@
         .header {
             font-size: 30px;
             text-align: center;
+            line-height: 40px;
+            width: 100%;
             display: flex;
             justify-content: space-evenly;
             .count-pill {
                 background-color: yellowgreen;
                 border-radius: 20px;
                 padding: 5px 10px;
+                margin: 0 25px;
                 font-size: 15px;
                 text-align: center;
                 align-items: center;
                 line-height: 30px;
                 font-weight: bold;
+                @media (max-width: 430px) {
+                    font-size: 10px;
+                }
+            }
+            @media (max-width: 430px) {
+                .title {
+                    font-size: 18px;
+                }
             }
         }
         .movie-grid {

@@ -10,7 +10,7 @@ const Watchlist = () => {
         <div className="movie-page">
             <div className="container">
                 <div className="header">
-                    <span>My Watchlist</span>
+                    <span className='title'>My Watchlist</span>
                     <span className="count-pill">
     {watchlist.length} {watchlist.length === 1 ? 'Movies' : 'Movies'}
                     </span>
