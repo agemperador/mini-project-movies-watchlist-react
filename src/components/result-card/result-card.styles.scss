@@ -82,7 +82,7 @@
                 &:hover {
                     background-color: #127acf;
                 }
-                &:disabled {
+                &.disabled {
                     opacity: 50%;
                     background-color: red;
                     cursor: auto;

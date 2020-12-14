@@ -35,14 +35,14 @@ const ResultCard = ({movie}) => {
                     </div>
                 </div>
                 <div className="controls">
-                    <button className="btn"
-                        disabled= {watchlistDisabled}
-                        onClick={()=> addMovieToWatchList(movie)}>
+                    <button className={`btn ${watchlistDisabled ? 'disabled' : ''}`}
+                        
+                        onClick={()=>!watchedDisabled? addMovieToWatchList(movie) : null} >
                         {watchlistDisabled? `Added`: `Add to Watchlist`}
                     </button>
-                    <button className="btn"
-                        disabled= {watchedDisabled}
-                        onClick={()=> addMovieToWatched(movie)}>
+                    <button className= {`btn ${watchedDisabled ? 'disabled' : ''}`}
+
+                        onClick={()=> !watchedDisabled? addMovieToWatched(movie) : null}>
                         {watchedDisabled? `Watched`: `Add to Watched`}
                     </button>
                 </div>

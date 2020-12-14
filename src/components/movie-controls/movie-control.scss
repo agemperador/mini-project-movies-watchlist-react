@@ -8,7 +8,7 @@
     .ctrl-btn {
         border: none;
         margin: 4px;
-        opacity: 50%;
+        opacity: 0.5;
         background-color: #333;
         border-radius: 5px;
         width: 70px;
@@ -16,7 +16,7 @@
         align-items: center;
         font-size: 25px;
         &:hover {
-            opacity: 100%;
+            opacity: 1;
             box-shadow: 0px 0px 5px 1px white;
             transition: ease-in 0.05s;
         }
