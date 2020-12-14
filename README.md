@@ -1,3 +1,9 @@
+# Movies Watchlist WebApp 
+
+This is a simple watchlist web application with search bar that takes the movies from TMDB. 
+
+It's based on a tutorial but the idea is to improve and grow with progressive stuff.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
